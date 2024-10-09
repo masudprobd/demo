@@ -1,0 +1,391 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<link href='https://fonts.maateen.me/solaiman-lipi/font.css' rel='stylesheet'/>
+<style>
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #e4ebf5;
+  font-family: SolaimanLipi;
+  padding: 5px;
+  width:-webkit-fill-available;
+  }
+  
+.sticky{float:left;width:100%;position:relative;padding:4px 0;min-height:42px;z-index:999999}
+</style>
+</head>
+<body>
+
+<div class="sticky">  <center> 
+  
+   <input id="myInput" type="text"span style="font-size: large;  font-family: SolaimanLipi;background-color:#e4ebf5 ; border: none; padding: 10px; width: 90%; border-radius: 16px; box-shadow: 4px 4px 4px 0px #d1d9e6 inset, -4px -4px 4px 0px #ffffff inset;" placeholder="গানের নাম বা নম্বর লিখুন"> 
+
+
+   </center>
+
+
+
+ </div>
+</body>
+</html>
+
+
+ <br/>  
+  
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<link href='https://fonts.maateen.me/solaiman-lipi/font.css' rel='stylesheet'/>
+<style>
+
+
+ :root {
+    --color: #908e8e;
+    --primary-light: #8abdff;
+    --primary: #6d5dfc;
+    --primary-dark: #5b0eeb;
+    --white: #FFFFFF;
+    --greyLight-1: #E4EBF5;
+    --greyLight-2: #c8d0e7;
+    --greyLight-3: #bec8e4;
+    --greyDark: #9baacf;
+} 
+  
+  
+  
+.collapsible {
+  border-radius: 100px;
+  box-shadow: 0 5px #999;
+  border-radius: 10px;
+ 
+}
+  
+.collapsible {
+  font-weight: bold;
+}  
+  
+.collapsible {
+  background-color:#e4ebf5 ;
+  color: #006747;
+  cursor: pointer;
+  padding: 20px 20px;
+  margin: 6px 2px;
+  width: 99%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-family: SolaimanLipi;
+  box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2),-0.2rem -0.2rem 0.5rem var(--white);
+}  
+  
+  
+  
+
+.active, .collapsible:hover {
+  background-color: #ddffdd;
+}
+
+
+  
+  
+  
+.collapsible:after {
+  content: '\f054';
+  color: #006747;
+  font-weight: bold;
+  float: right;
+  font-size: 14px;  
+  margin-left: 5px;
+  font-family: 'fontawesome';
+    vertical-align: middle;
+}
+
+.active:after {
+  content: "\f078";
+}  
+  
+  
+  
+  
+
+  
+ span1, .collapsible:after {
+  font-weight: bold;
+  float: right;
+  font-size: 14px;  
+  margin-left: 8px;
+  align-items: center;
+}
+
+  
+  
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #ffffcc;
+  border-radius: 100px;
+  box-shadow: 0 5px Green;
+  border-radius: 10px;
+
+}
+</style>
+</head>
+<body>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+<link href='https://fonts.maateen.me/solaiman-lipi/font.css' rel='stylesheet'/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+<link href='https://fonts.maateen.me/solaiman-lipi/font.css' rel='stylesheet'/>  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">   
+  
+<script>
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myTable tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
+  
+<style>
+table {
+  font-family:SolaimanLipi,arial, sans-serif; 
+  border-collapse: collapse;
+  width: 100%;
+}
+ 
+button{
+  font-family:SolaimanLipi,arial, sans-serif;
+}
+
+ 
+td, th {
+  text-align: left;
+  padding: 1px;
+}
+
+
+ body{
+            padding: 0;
+            margin: 0;
+            font-family: SolaimanLipi;
+            color: Black;
+            background-color: #e4ebf5;
+        }
+        .container{
+            padding: 25px;
+            font-family:SolaimanLipi;
+        }
+  
+        hr{
+            width: 90%;
+           border: 1px dashed #ff0000;
+        }
+  
+  
+        h3 {
+            color: Green;
+               }
+
+        p{
+               color: Black;
+        }
+  
+          p1{
+               color: red;
+               text-align: center;
+        }
+
+
+        b {
+             color: Green;
+               }
+  
+
+ 
+    
+   body  {
+      background-color:#e4ebf5;
+      font-family:SolaimanLipi;
+    }  
+  
+  
+
+</style>
+</head>
+<body>
+
+
+
+<table>
+  <thead>
+
+  </thead>
+  <tbody id="myTable"> 
+ <br/>   
+
+
+  
+ 
+
+<tr><td> <button class="collapsible"> ৫৭. আকাশে চন্দ্র তারা             </button>
+<div class="content">             <center> <p style=“font-family:solaimanlipi;”>  <b> 57  <br/>   আকাশে চন্দ্র তারা   </b> <br/><br/>  
+  
+আকাশে চন্দ্র তার, বন-গিরি-নদী-ধারা    <br/>
+তোমার মহিমা গায় প্রভু <br/>
+তোমার মহিমা গা।<br/>
+তুমি যে বিশ্বজুড়ে<br/>
+রয়েছে সবার সুরে<br/>
+নিখিল মানব সবে<br/>
+নিখিল মানব সবে<br/>
+তোমার শরণ লয়।<br/>
+তোমার মহিমা গায়...।<br/>
+তুমি অনন্ত তবু তুমি ধরা দাও<br/>
+প্রেমের আসনে চরণ ফেলিয়াও<br/>
+তোমার করুণা লভি<br/>
+পেয়েছি মোরা যে সবই<br/>
+অলখ হ’তে গো তুমি<br/>
+জীবন ভরো সুধায়।<br/>
+তোমার মহিমা গায়..।<br/>
+
+  </p><br/><br/> <hr><p1>   - বাংলা কোরাস </p1><br/><br/></center>                     </td> </div> </tr>
+  
+
+
+<tr><td><button class="collapsible"> ১. আছে বল বল অদ্ভুত কার্যে বল         </button>
+<div class="content">             <center> <p style=“font-family:solaimanlipi;”>  <b> 1  <br/>   আছে বল বল অদ্ভুত কার্যে বল    </b> <br/><br/> 
+  
+আছে বল, বল, অদ্ভুত কার্যে বল<br/>
+শোণিতে , শোণিতে;<br/>
+আছে বল, বল, অদ্ভুত কার্যে বল<br/>
+হত- মেষের শোণিতে বল।<br/>
+   </p><br/><br/> <hr><p1>   - বাংলা কোরাস </p1><br/><br/></center>                     </td> </div> </tr>  
+  
+  
+  
+<tr><td> <button class="collapsible"> ২. আনন্দ আনন্দ আনন্দ রে            </button>
+<div class="content">             <center> <p style=“font-family:solaimanlipi;”>  <b>  2  <br/>   আনন্দ আনন্দ আনন্দ রে    </b> <br/>
+  
+আনন্দ, আনন্দ, আনন্দ রে,  <br/>
+আনন্দ, আনন্দ, আনন্দ রে,<br/>
+যীশুতে মোরা আনন্দের ফোয়ারা পেয়েছি রে,<br/>
+আনন্দ, আনন্দ, আনন্দ রে,<br/>
+এই সংসার ছেড়ে আনন্দ নগরে<br/>
+চলে যাব রে,<br/>
+আনন্দ, আনন্দ, আনন্দ রে,<br/>
+  </p><br/><br/> <hr><p1>   - বাংলা কোরাস </p1><br/><br/></center>                     </td> </div> </tr>
+  
+
+
+
+
+
+  <tr><td><button class="collapsible"> ৫২. হে যীশু আমার মুছে             </button>
+    <div class="content">             <center> <p style=“font-family:solaimanlipi;”>  <b>  52  <br/>   হে যীশু আমার মুছে      </b> <br/><br/> 
+      
+    হে যীশু আমার, মুছে পাপের আঁধার<br/>
+    কোলে তুলে নাও পাপীরে।<br/><br/>
+    
+    ১। পাপে আমি মৃত, সদাই পীড়িত<br/>
+    জীবনের আশা নাই আমার।<br/><br/>
+    
+    ২। শয়তানকে জয় করতে, তোমার পথে চলতে<br/>
+    নাই কোন সাধ্য আমার।<br/><br/>
+    
+    ৩। স্ত্রী-পুত্র পরিবার, ধনদৌলত অহঙ্কার<br/>
+    কিছুই সঙ্গে যাবে না আমার।<br/><br/>
+    
+    ৪। পথ চলে ক্লান্ত, অতি পরিশ্রান্ত<br/>
+    বোঝা নেবার কেহ নাই আমার।<br/>
+      </p><br/><br/> <hr><p1>   - বাংলা কোরাস </p1><br/><br/></center>                     </td> </div> </tr>  
+    
+      
+    <tr><td> <button class="collapsible"> ৫৩. হৃদেতে শান্তি          </button>
+    <div class="content">             <center> <p style=“font-family:solaimanlipi;”>  <b>  53  <br/>   হৃদেতে শান্তি     </b> <br/><br/>  
+      
+    হৃদেতে শান্তি, হৃদেতে শান্তি,  <br/>
+    (আমার) হৃদেতে শান্তি<br/>
+    নদীর ন্যায়।<br/>
+    আমার মনে আনন্দ, মনে আনন্দ,<br/>
+    আমার মনে আনন্দ<br/>
+    ঝরণার ন্যায়।<br/>
+       </p><br/><br/> <hr><p1>   - বাংলা কোরাস </p1><br/><br/></center>                     </td> </div> </tr>
+      
+    
+    
+         
+      </tr>
+    
+      </tbody>
+    </table>
+      
+    
+    </body>
+    </html>  
+      
+    <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        } 
+      });
+    }
+    </script>
+    
+    <script src='https://scretscript.github.io/jss/protected.js'></script><style>
+     * {
+      user-select: none;
+    }
+    *::selection {
+      background: none;
+    }
+    *::-moz-selection {
+      background: none;
+    }
+        
+    </style>
+    
+    </body>
+    </html>
+    
+    
+    
+    
+    
+    
+    
+    <script src="demo-to-prevent-copy-paste-on-blogger_files/ googleapis . js"></script><script type="text/javascript"> if (typeof document . onselectstart !="undefined" ) {document .onselectstart=new Function ("return false" ); } else {document .onmousedown=new Function ("return false" ) ;document .onmouseup=new Function ("return false"); } </script><!-- End disable copy paste -->  <br />
+    
+    
+    
+    
+    
